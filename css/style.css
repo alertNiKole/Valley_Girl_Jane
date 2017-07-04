@@ -1,0 +1,174 @@
+ /*/                Plain Janes  Blog  by NiKole Maxwell                     /*/
+/*/                     Cascade Styling Sheet                                       /*/
+
+
+/*/                            Theme Basics                                          /*/
+/*  Check here for basic info on the style represented in the blog.
+|    main fonts
+|       font-family: 'Crafty Girls', cursive;
+|       font-family: 'Quicksand', sans-serif;
+|
+|   main colors:
+|        hotpink: #ec316d;
+|        dark gray: #c0c0c0 (silver)
+|        purple: #800080
+|        green:  #4ca23b (accent)
+|        pink: #ec316d (accent 2)
+|        purp: #a0566e   
+*/  
+
+html {
+    background: rgba(236, 49, 109, 0.04);
+    margin-top: 0;
+}
+
+/*/ Body /*/
+body {
+ font-family: 'Quicksand', sans-serif;
+ font-size: 16px;
+ margin: 0;
+
+}
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+#banner {
+    background: url('../images/girl banner.png') no-repeat center;
+    padding-top: 18.5em;
+    margin-top: 0;
+}
+
+h1 {
+    font-family: 'Crafty Girls', cursive;
+    color: #ec316d;
+    text-shadow: 2px 2px silver;
+    font-size: 5em;
+    margin-left: .3em;
+    margin-bottom: -.2em;
+    margin-top: 2em;
+}
+
+ #mainMenu {
+    font-family: 'Crafty Girls', cursive;
+    font-size: 20px;
+    background-color: rgba(248, 248, 255, 0.55);
+    color: #ec316d;
+    font-weight: 700;
+    text-shadow: 2px 2px silver;
+    float: right;
+    display: inline;
+    border-radius: .30em;
+    padding-right: 25px;
+    margin-right: .5em;
+    /* margin-top: 4em; */
+    overflow: hidden;
+    width: 100%;
+    margin-left: 2em;
+}
+
+#mainMenu ul {
+    margin: 0;
+    /* padding: 0; */
+    margin-left: 3.5em;
+}
+
+#mainMenu ul li {
+    margin-bottom: 5px white;
+    border-top: white;
+    border-bottom: white;
+    overflow: hidden;
+    display: inline;
+    padding-right: 25px;
+}
+
+#mainMenu ul li a {
+    font-family: 'Crafty Girls', cursive;
+    border: .2em solid white;
+    border-bottom-right-radius: 5em; 
+    margin-right: .3em;
+    text-decoration:   none;
+    color: purple;
+}
+
+
+/*/                 Blog                         /*/
+#blogFrame {
+    max-width: 1260px;
+    border-right: .45em outset silver;
+    border-left: .45em inset silver;
+    border-top: 0;
+    border-bottom: 0;
+    margin: auto;
+    width: 75%;
+    border-radius: .5em;
+    box-shadow: 5px 5px 5px #888888
+}
+
+#sideMenu {
+    font-family: 'Crafty Girls', cursive;
+    font-size: 20px;
+    color: #ec316d;
+    font-weight: 700;
+    text-shadow: 2px 2px silver;
+    background-color: rgba(248, 248, 255, 0.55);
+    float: right;
+    display: inline;
+    overflow: hidden;
+    padding-right: 5px;
+    text-decoration: none;  
+}
+
+#sideMenuTitle {
+   font-size: 1.5em;
+   color: purple;
+}
+
+#blogPost {
+    margin: 1.25em;
+    font-size: 1.75em;
+    line-height: 1.50em;
+}
+
+h2 {            /*Article title*/
+    font-family: 'Crafty Girls', cursive;
+    font-size: 2.5em;
+    text-align: center;
+    color: #ec316d;
+    text-shadow:  2px 2px silver;
+}
+
+#firstLetter {      /*     Drop Case on first letter   */
+    color: #ec316d;
+    text-shadow:  2px 2px silver;
+    float: left;
+    width: 0.7em;
+    font-size: 400%;
+    font-family: 'Crafty Girls', cursive;
+    line-height: 80%;
+}
+
+img {
+    float: left;
+    width: 50%;
+    padding-right: 15px;
+    border-radius: .5em;
+}
+
+ footer {
+    margin: 0;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 700;
+    color: rgba(236, 49, 109, 0.64);
+    background: rgba(192, 192, 192, 0.4);
+    border-radius: .3em;
+    text-decoration: none;
+ }
+
+ footer a {
+     color:#4ca23b;
+     text-decoration:  none;
+ }

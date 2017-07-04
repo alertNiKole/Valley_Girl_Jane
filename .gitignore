@@ -1,0 +1,10 @@
+//These files will be ignored when uploaded to GitHub.  Once development is rolled to GitHub add a task to confirm they were ignored.
+
+Plan.txt
+*./ignore
+github.txt
+*./vscode
+*/vscode
+launch.json
+settings.json
+

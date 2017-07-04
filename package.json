@@ -1,0 +1,29 @@
+{
+  "name": "plain_jane",
+  "version": "0.0.1",
+  "description": "This is a static webpage that can be used for a blog.  Its got a girly twist and is ready for all of those fun clueless moments that you will never want to forget when you turn 30.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NvyMax/plain_jane.git"
+  },
+  "keywords": [
+    "static",
+    "webpage",
+    "blog",
+    "plain",
+    "jane",
+    "nvyio",
+    "NiKole",
+    "Maxwell"
+  ],
+  "author": "NiKole Maxwell",
+  "license": "The Unlicense",
+  "bugs": {
+    "url": "https://github.com/NvyMax/plain_jane/issues"
+  },
+  "homepage": "https://github.com/NvyMax/plain_jane#readme"
+}
